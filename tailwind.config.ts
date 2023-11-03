@@ -13,6 +13,9 @@ const config: Config = {
           600: "#f0ffff",
           900: "#1f51ff",
         },
+        orange: {
+          100: "#ffedd5",
+        },
         white: {
           600: "#ffffff",
         },

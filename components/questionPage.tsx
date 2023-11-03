@@ -35,7 +35,7 @@ const QuestionPage = () => {
 
   return (
     <section className="min-h-screen max-h-screen items-center w-fit pt-2 flex flex-col">
-      <Image src='/image.png' alt='image' width={100} height={100} />
+    <Image src='/image.png' alt='image' width={100} height={100} />
       <div className='flex gap-2 pt-5 pb-5'>
         <h1 className='text-2xl font-bold'>Question list</h1>
         <div className='w-[30px] h-[20px] mt-1.5 flex justify-center items-center rounded-full text-white-600 bg-gray-300 '>12</div> 
@@ -61,11 +61,6 @@ const QuestionPage = () => {
           </div>
             ))
         }
-        </div>
-
-        {/* asidebar  */}
-        <div>
-          <Asidebar />
         </div>
     </section>
   )
