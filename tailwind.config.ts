@@ -13,6 +13,9 @@ const config: Config = {
           600: "#f0ffff",
           900: "#1f51ff",
         },
+        white: {
+          600: "#ffffff",
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

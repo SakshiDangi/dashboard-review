@@ -6,4 +6,4 @@ const Asidebar = () => {
   )
 }
 
-export default Asidebar
+export default Asidebar;

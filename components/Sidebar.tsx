@@ -28,7 +28,7 @@ const sidebarItmes: SideNavItemType[] = [
   {
     icon: {
       icon: <FiTool />,
-      fillIcon: <AiTwotoneTool />
+      fillIcon: <AiTwotoneTool className="text-blue-900"/>
     },
     label: "1.Campaign setup",
     href: "/home"
@@ -36,7 +36,7 @@ const sidebarItmes: SideNavItemType[] = [
   {
     icon: {
       icon: <BsQuestionCircle />,
-      fillIcon: <BsQuestionCircleFill />
+      fillIcon: <BsQuestionCircleFill className="text-blue-900" />
     },
     label: "2.Question list",
     href: "/question"
@@ -44,7 +44,7 @@ const sidebarItmes: SideNavItemType[] = [
   {
     icon: {
       icon: <MdAccessTime />,
-      fillIcon: <MdAccessTimeFilled />
+      fillIcon: <MdAccessTimeFilled className="text-blue-900"/>
     },
     label: "3.Timeline",
     href: "/timeline"
@@ -124,7 +124,7 @@ function HoverContainer({
   className?: string;
 }) {
   return (
-    <div className="p-3 transition-all rounded-25px cursor-pointer hover:bg-blue-600 w-fit group-hover:bg-blue-900 hover:text-blue-900 active:text-blue-900 group-active:bg-blue-900 active:bg-blue-600">
+    <div className="p-3 transition-all rounded-25px cursor-pointer hover:bg-blue-600 w-fit group-hover:bg-blue-900 hover:text-blue-900">
       {children}
     </div>
   );
