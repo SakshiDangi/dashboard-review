@@ -64,7 +64,7 @@ export default function Sidebar({}: Props) {
     </HoverContainer>
     <div
       className={cn(
-        "min-h-screen max-h-screen flex justify-center overflow-y-auto w-fit md:pr-8 pr-3 flex flex-col border-r-[1px] pl-[50px]"
+        "min-h-screen max-h-screen flex justify-center overflow-y-auto w-fit md:pr-8 pr-3 flex flex-col pl-[50px]"
       )}
     >
     
