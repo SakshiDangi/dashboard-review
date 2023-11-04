@@ -1,6 +1,5 @@
 import React from 'react';
 import QuestionPage from '@/components/questionPage';
-import Asidebar from '@/components/Asidebar';
 
 const page = () => {
   return (

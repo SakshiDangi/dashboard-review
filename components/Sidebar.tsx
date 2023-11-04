@@ -57,7 +57,7 @@ export default function Sidebar({}: Props) {
   return (
     <div className="mt-2">
     <HoverContainer>
-      <Link href={"/review"} className="flex items-center cursor-pointer">
+      <Link href="/review" className="flex items-center cursor-pointer">
       <div className="w-[35px] h-[20px] text-xl"><FaAngleLeft /></div>
       <p className={cn("text-sm hidden md:block pr-4  transition-all ")}>Back to Dashboard</p>
       </Link>
