@@ -26,7 +26,7 @@ const RadioButtonGroup = () => {
   const [review, setReview] = useState<String>(radio[0].label);
 
 
-  const RadioButton = ({name, label, value, onChange, options, className} : {name?:string, label?:string, value?:boolean, onChange?:any, options?:any, className:any }) => {
+  const RadioButton = ({label, value, onChange, options, className} : {label?:string, value?:boolean, onChange?:any, options?:any, className:any }) => {
     return (
       <label>
         <input type='radio' name="page" checked={value} onChange={onChange} />
