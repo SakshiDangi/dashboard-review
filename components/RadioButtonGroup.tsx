@@ -26,7 +26,7 @@ const RadioButtonGroup = () => {
   const [review, setReview] = useState<String>(radio[0].label);
 
 
-  const RadioButton = ({ name, label, value, onChange }) => {
+  const RadioButton = ({name, label, value, onChange, options, className} : {name?:any, label?:any, value?:any, onChange?:any, options?:any, className:any }) => {
     return (
       <label>
         <input type='radio' name="page" checked={value} onChange={onChange} />
@@ -51,7 +51,8 @@ const RadioButtonGroup = () => {
       </div>
       {
         radio.map((radios, i) => (
-      <RadioButton key={i} className="radios"
+      <RadioButton key={i} 
+        className="radios"
         label={radios.label}
         options={radio}
         onChange={handleChange}
